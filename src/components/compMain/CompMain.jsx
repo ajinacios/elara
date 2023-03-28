@@ -25,7 +25,7 @@ export default function CompMain() {
                     </div>
                     <div className="conteudo">
                         <a href="../docs/PROCESSOS SOLICITADOS TCE.pdf" target="_blank">Processos a serem analizados</a>
-                        <a href="../docs/portaria_n__2_2023_gp_secex_diplaf.pdf" target="_blank">Portaria 2/2023</a>
+                        <a href="../../docs/portaria_n__2_2023_gp_secex_diplaf.pdf" target="_blank">Portaria 2/2023</a>
                     </div>
                     <div className="conteudo">
                         <a href="docs/Solicitação 01 SEMEF.pdf" target="_blank">Solicitação de documentos à SEMEF</a>
