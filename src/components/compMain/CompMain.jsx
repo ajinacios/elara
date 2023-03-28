@@ -24,7 +24,7 @@ export default function CompMain() {
                         <a href="https://protocolo.manaus.am.gov.br/proton/login.asp" target="_blank">Sistema SIGED</a>
                     </div>
                     <div className="conteudo">
-                        <a href="../../docs/PROCESSOS SOLICITADOS TCE.pdf" target="_blank">Processos a serem analizados</a>
+                        <a href="../docs/PROCESSOS SOLICITADOS TCE.pdf" target="_blank">Processos a serem analizados</a>
                         <a href="docs/portaria_n__2_2023_gp_secex_diplaf.pdf" target="_blank">Portaria 2/2023</a>
                     </div>
                     <div className="conteudo">
