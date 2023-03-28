@@ -12,7 +12,7 @@ export default function CompMain() {
                     <h2>Inspeção na Secretaria de Finanças e Tecnologia da Informação do Município de Manaus - SEMEF</h2>
                     <div className="ajustediv"></div>
                     <div className="objeto">
-                        <p><strong>Processo TCE nº:</strong> 11897/2022---</p>
+                        <p><strong>Processo TCE nº:</strong> 11897/2022</p>
                         <p><strong>Órgão:</strong> Secretaria Municipal de Finanças e Tecnologia da Informação - SEMEF</p>
                         <p><strong>Objeto:</strong> Prestação de Contas Anual da Secretaria Municipal de Finanças e Tecnologia da Informação - SEMEF, de responsabilidade do Sr. Clécio da Cunha Freire, exercício de 2021.</p>
                         <p><strong>Responsáveis:</strong> Clécio da Cunha Freire, Secretário Municipal Finanças</p>
@@ -25,7 +25,7 @@ export default function CompMain() {
                     </div>
                     <div className="conteudo">
                         <a href="../docs/PROCESSOS SOLICITADOS TCE.pdf" target="_blank">Processos a serem analizados</a>
-                        <a href="docs/portaria_n__2_2023_gp_secex_diplaf.pdf" target="_blank">Portaria 2/2023</a>
+                        <a href="../docs/portaria_n__2_2023_gp_secex_diplaf.pdf" target="_blank">Portaria 2/2023</a>
                     </div>
                     <div className="conteudo">
                         <a href="docs/Solicitação 01 SEMEF.pdf" target="_blank">Solicitação de documentos à SEMEF</a>
