@@ -1,5 +1,7 @@
 import React from "react";
 import '../../principal.css'
+import matriz from './docs/Matriz de planejamento SEMEF.pdf'
+import processos from './docs/PROCESSOS SOLICITADOS TCE.pdf'
 
 
 export default function CompMain() {
@@ -20,12 +22,12 @@ export default function CompMain() {
                         <p><strong>Assunto:</strong> Atendendo ao Despacho do Relator</p>
                     </div>
                     <div className="conteudo">
-                        <a href="../../docs/Matriz de planejamento SEMEF.pdf" target="_blank">Matriz de Planejamento</a>
+                        <a href={matriz} target="_blank">Matriz de Planejamento</a>
                         <a href="https://protocolo.manaus.am.gov.br/proton/login.asp" target="_blank">Sistema SIGED</a>
                     </div>
                     <div className="conteudo">
-                        <a href="../docs/PROCESSOS SOLICITADOS TCE.pdf" target="_blank">Processos a serem analizados</a>
-                        <a href="../../docs/portaria_n__2_2023_gp_secex_diplaf.pdf" target="_blank">Portaria 2/2023</a>
+                        <a href={processos} target="_blank">Processos a serem analizados</a>
+                        <a href="./docs/portaria_n__2_2023_gp_secex_diplaf.pdf" target="_blank">Portaria 2/2023</a>
                     </div>
                     <div className="conteudo">
                         <a href="docs/Solicitação 01 SEMEF.pdf" target="_blank">Solicitação de documentos à SEMEF</a>
