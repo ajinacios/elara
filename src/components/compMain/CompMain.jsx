@@ -2,6 +2,9 @@ import React from "react";
 import '../../principal.css'
 import matriz from './docs/Matriz de planejamento SEMEF.pdf'
 import processos from './docs/PROCESSOS SOLICITADOS TCE.pdf'
+import solicita from './docs/Solicitação 01 SEMEF.pdf'
+import portaria from './docs/portaria_n__2_2023_gp_secex_diplaf.pdf'
+import errata from './docs/errata_n__01_2023_gp_secex_diplaf.pdf'
 
 
 export default function CompMain() {
@@ -27,11 +30,11 @@ export default function CompMain() {
                     </div>
                     <div className="conteudo">
                         <a href={processos} target="_blank">Processos a serem analizados</a>
-                        <a href="./docs/portaria_n__2_2023_gp_secex_diplaf.pdf" target="_blank">Portaria 2/2023</a>
+                        <a href={portaria} target="_blank">Portaria 2/2023</a>
                     </div>
                     <div className="conteudo">
-                        <a href="docs/Solicitação 01 SEMEF.pdf" target="_blank">Solicitação de documentos à SEMEF</a>
-                        <a href="docs/errata_n__01_2023_gp_secex_diplaf.pdf" target="_blank">Alteração da Portaria 2/2023</a>
+                        <a href={solicita} target="_blank">Solicitação de documentos à SEMEF</a>
+                        <a href={errata} target="_blank">Alteração da Portaria 2/2023</a>
                     </div>
                     <div className="contato">
                         <p><strong>Contato:</strong> amanda.fournier@manaus.am.gov.br</p>
